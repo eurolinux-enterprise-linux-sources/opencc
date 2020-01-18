@@ -1,6 +1,6 @@
 Name:       opencc
 Version:    0.4.3
-Release:    3%{?dist}
+Release:    1%{?dist}
 Summary:    Libraries for Simplified-Traditional Chinese Conversion
 License:    ASL 2.0
 Group:      System Environment/Libraries
@@ -85,12 +85,6 @@ ctest
 %{_libdir}/pkgconfig/*.pc
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.4.3-3
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.4.3-2
-- Mass rebuild 2013-12-27
-
 * Tue May 28 2013 Peng Wu <pwu@redhat.com> - 0.4.3-1
 - Update to 0.4.3
 
